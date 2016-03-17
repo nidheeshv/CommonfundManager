@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<TextView
+     android:id="@+id/deposittext"
+            style="@style/OrangeButtons"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/deposits_info"
+    />
+    
+<WebView 
+    android:id="@+id/deposits_info_table"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            
+    
+    
+    />
+</LinearLayout>
+</ScrollView>

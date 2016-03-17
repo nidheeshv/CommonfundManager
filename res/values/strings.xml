@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CommonFundManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+	
+	
+	<!-- User home -->
+	<string name="requestclaim">Add Transaction</string>
+	<string name="accountinfo">Account Status</string>
+	<string name="myrequests">Update Transaction</string>
+	
+	
+	<!-- Request Claim -->
+	
+	<string name="member">Member</string>
+	<string name="select_date">Select Date</string>
+	<string name="requesttype">Request Type</string>
+	<string name="category">Category</string>
+	<string name="items">Items</string>
+	<string name="amount">Amount</string>
+	<string name="submit">Submit</string>
+	
+	  <string-array name="member_names">
+        <item>Adarsh</item>
+        <item>Akhil</item>
+        <item>Bijilesh</item>
+        <item>Nidheesh</item>
+        <item>Nithin</item>
+        <item>Sandeep</item>
+        <item>Sanoop</item>
+        <item>Shalin</item>
+       </string-array>
+	 <string-array name="request_types">
+        <item>Debit</item>
+        <item>Credit</item>
+        
+     </string-array>
+     
+	 <string-array name="select_categories">
+        <item>Food</item>
+        <item>Rent</item>
+        <item>Other</item>
+     </string-array>
+	
+	<!-- Account Info -->
+	<string name="total_deposit">Total Deposit</string>
+	<string name="total_expense">Total Expense</string>
+	<string name="balance">Balance</string>
+	<string name="daily_expenditure">Daily Expenditure</string>
+	<string name="per_head_expenditure">Per Head Expense</string>
+	<string name="deposits_info">Deposits</string>
+	<string name="redemptions_info">Redemptions</string>
+	
+	<!-- My Requests -->
+	<string name="t_id">Transaction Id</string>
+	<string name="t_member">Member</string>
+	<string name="t_date">Date</string>
+	<string name="t_type">Type</string>
+	<string name="t_category">Category</string>
+	<string name="t_description">Description</string>
+	<string name="t_amount">Amount</string>
+	<string name="t_status">Current Status</string>
+	<string name="t_edit">Edit</string>
+	<string name="t_delete">Delete</string>
+	
+</resources>

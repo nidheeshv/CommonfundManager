@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<TextView
+     android:id="@+id/accountinfotext"
+            style="@style/OrangeButtons"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/accountinfo"
+    />
+    
+<TextView
+     android:id="@+id/totaldeposit"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/total_deposit"
+    />
+<TextView
+     android:id="@+id/totaldeposit_value"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            
+    />
+<TextView
+     android:id="@+id/totalexpense"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/total_expense"
+    />
+<TextView
+     android:id="@+id/totalexpense_value"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            
+    />
+<TextView
+     android:id="@+id/account_balance"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/balance"
+    />
+<TextView
+     android:id="@+id/account_balance_value"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            />
+<TextView
+     android:id="@+id/dailyexpenditure"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/daily_expenditure"
+    />
+<TextView
+     android:id="@+id/dailyexpenditure_value"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+               />
+
+<TextView
+     android:id="@+id/perhead_expenditure"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/per_head_expenditure"
+    />
+<TextView
+     android:id="@+id/perhead_expenditure_value"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+               />
+
+	<Button
+            android:id="@+id/depositinfo_button"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/deposits_info"
+            android:onClick="ShowAllDeposits" />
+          
+            <Button
+            android:id="@+id/redemption_button"
+            style="@style/OrangeButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/redemptions_info"
+            android:onClick="ShowAllRedemptions" />
+</LinearLayout>
+</ScrollView>
